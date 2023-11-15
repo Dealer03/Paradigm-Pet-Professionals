@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/modernize-normalize.css">
+    <link rel="stylesheet" href="./css/components/header.css">
+    <link rel="stylesheet" href="./css/components/main.css">
+    <link rel="stylesheet" href="./css/components/hero.css">
+    <link rel="stylesheet" href="./css/components/adopt.css">
+    <link rel="stylesheet" href="./css/components/sidebar.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
+    <link rel="stylesheet" href="./css/components/cats.css">
+    <link rel="stylesheet" href="./css/components/dogs.css">
+    <link rel="stylesheet" href="./css/components/schedule.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Paradigm Pet Professionals</title>
+</head>
+<body class="schedule__container container-fluid">
+    <header class="header">
+        <nav class="header__menu navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img class="header__logo" src="./assets/image2.png" alt="new pet care consultation"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    pet care
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./dogs.html">dogs</a></li>
+                    <li><a class="dropdown-item" href="./cats.html">cats</a></li>
+                    <li><a class="dropdown-item" href="./birds.html">birds</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./consultation.html">schedule a consultation</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./faqs.html">FAQs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./about.html">about</a>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main class="main consultation__main" id="main">
+      <div class="consultation__container">
+        <div class="consultation__empty"></div>
+      <div class="consultation" id="consultation__section">
+        <div class="consultation__text">
+          schedule a consultation with a pexpert
+        </div>
+      </div>
+      <div class="consultation__form">
+        <div class="consultation__instructions">
+          Please fill out our contact form to request a consultation. We will contact you within 48 hours to schedule a consultation. All fields are required.
+        </div>
+        <form class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter you name here" required>
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Phone Number</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="555-555-5555" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Youremail@example.com" aria-describedby="emailHelp" required>
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <select class="form-select" aria-label="Default select example" aria-expanded="false" required>
+          <option selected disabled value="">Choose you time zone</option>
+          <option value="1">Pacific Time</option>
+          <option value="2">Mountain Time</option>
+          <option value="3">Central Time</option>
+          <option value="4">Eastern Time</option>
+        </select>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Your pet's name</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your pet's name here" required>
+        </div>
+        <select class="form-select" aria-label="Default select example" aria-expanded="false" required>
+          <option selected disabled value="">Choose your pet type</option>
+          <option value="1">Dog</option>
+          <option value="2">Cat</option>
+          <option value="3">Bird</option>
+          <option value="4">Other</option>
+        </select>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Your pet's age</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your pet's age here" required>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-secondary" type="submit">Submit form</button>
+        </div>
+      </form>
+      </div>
+    </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__menu">
+        <div class="footer__bar">
+          <h5>petcare</h5>
+          <ul class="footer__ul">
+            <li class="footer__item">
+              <a class="footer__link" href="./dogs.html">dogs</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="./cats.html">cats</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="./birds.html">birds</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__bar">
+          <h5>consultations</h5>
+          <ul class="footer__ul">
+            <li class="footer__item">
+              <a class="footer__link" href="./consultation.html">schedule a consultation</a>
+            </li>
+        </div>
+        <div class="footer__bar">
+          <h5>FAQs</h5>
+          <ul class="footer__ul">
+            <li class="footer__item">
+              <a class="footer__link" href="./faqs.html">frequently asked questions</a>
+            </li>
+        </div>
+        <div class="footer__bar">
+          <h5>About</h5>
+          <ul class="footer__ul">
+            <li class="footer__item">
+              <a class="footer__link" href="./about.html">company values</a>
+            </li>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <div>
+          @Paradigm Pet Professionals
+        </div>
+         <div>
+          Terms and Conditions | Privacy
+         </div>
+      </div>
+    </footer>
+    <script type="module" src="./validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
