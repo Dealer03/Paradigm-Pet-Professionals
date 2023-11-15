@@ -1,0 +1,46 @@
+.aside {
+    position: fixed;
+    top: 20%;
+    height: 45%;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: var(--size-xl);
+}
+#aside__cats {
+    position: fixed;
+    top: 20%;
+    height: 56%;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: var(--size-xl);
+}
+#aside__birds {
+    position: fixed;
+    top: 20%;
+    height: 30%;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: var(--size-xl);
+}
+.aside__nav {
+    padding-top: 1rem;
+}
+.aside__nav-item {
+    padding: 1rem;
+}
+/* #aside__home {
+    position: fixed;
+    top: 50%;
+    height: 50%;
+    padding-top: 0;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: var(--size-xl);
+} */
+.aside__logo {
+    padding: 1rem;
+    border-radius: var(--main-radius);
+}
+.navbar-dark .nav-item .nav-link {
+    color: var(--clr-Silver);
+}

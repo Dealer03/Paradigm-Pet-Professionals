@@ -1,0 +1,27 @@
+.hero {
+    grid-area: hero;
+}
+.hero__empty {
+    grid-area: hero__empty;
+    height: 10rem;
+}
+.hero__logo {
+    border-radius: var(--main-radius);
+}
+.hero__logo-wrapper {
+    grid-area: hero__logo-wrapper;
+    align-items: center;
+    background-color: var(--clr-MidnightBlue);
+    padding: 2rem;
+}
+.hero__container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "hero__empty hero__empty hero__empty hero__empty"
+    "hero__logo-wrapper hero hero hero";
+}
+#pexpert {
+    color: aliceblue;
+}
