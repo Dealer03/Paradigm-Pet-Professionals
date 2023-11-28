@@ -44,3 +44,9 @@
 .navbar-dark .nav-item .nav-link {
     color: var(--clr-Silver);
 }
+
+@media only screen and (max-width:720px) {
+    .aside {
+      display: none;  
+    }
+}

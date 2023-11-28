@@ -35,3 +35,15 @@
     color: var(--clr-Silver);
     font-size: 18px;
 }
+
+@media only screen and (max-width:720px) {
+    .consultation__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "consultation" 
+        "consultation__empty"
+        "consultation__form";
+    }
+}

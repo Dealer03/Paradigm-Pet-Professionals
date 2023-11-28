@@ -98,7 +98,7 @@
           "footer footer footer footer";
           grid-gap: 0.2rem;
         }
-  @media only screen and (max-width:475px) {
+  @media only screen and (max-width:720px) {
     .container {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
@@ -107,5 +107,5 @@
           "aside"
           "main"
           "footer";
-      }
+      }   
   }

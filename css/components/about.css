@@ -1,5 +1,6 @@
 .about {
     grid-area: about;
+    width: auto;
 }
 .about__empty {
     grid-area: about__empty;
@@ -36,4 +37,27 @@
 }
 .about__title-container {
     grid-area: about__title-container;
+}
+
+@media only screen and (max-width:720px) {
+    .about__img-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "about__empty"
+        "about__title-container"
+        "about__info-container"
+        "about";
+    }
+    .about {
+        width: auto;
+    }
+    .about__title {
+        padding-left: none;
+    }
+    .about__info-container {
+        padding-right: none;
+        padding-bottom: 3rem;
+    }
 }

@@ -25,3 +25,21 @@
 #pexpert {
     color: aliceblue;
 }
+
+@media only screen and (max-width:720px) {
+    .hero__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "hero__empty"
+        "hero__logo-wrapper"
+        "hero";
+    }
+    .hero__logo-wrapper {
+        grid-area: hero__logo-wrapper;
+        align-items: center;
+        background-color: var(--clr-MidnightBlue);
+        padding: none;
+    }
+}
