@@ -1,4 +1,6 @@
-.hero-image {
-    width: auto;
+#floating-img {
+    width: 300px;
     height: auto;
+    float: right;
+    padding: 2rem;
 }

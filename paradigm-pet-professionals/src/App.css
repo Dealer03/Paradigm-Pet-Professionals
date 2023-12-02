@@ -1,11 +1,23 @@
 #root {
+    /* primary colors */
+    --clr-MidnightBlue: #003B6D;
+    --clr-BlueSky: #6699CC;
+    
+    /* secondary colors */
+    --clr-Dimgray: #676767;
+    --clr-Silver: #BDBDBD;  
+
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  padding-top: 8rem;
+  text-align: start;
 }
-
 .nav-logo {
   height: 50px;
   width: auto;
+}
+h2 {
+  padding: 6rem;
+  text-transform: capitalize;
 }
